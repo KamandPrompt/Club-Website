@@ -11,7 +11,7 @@ const coCordis = [
   },
   {
     name: 'Abhinandan Kumar',
-    imageUrl: './src/assets/teamphoto/abhinandan.jpeg',
+    imageUrl: '/teamphoto/abhinandan.jpeg',
      linkedin: "https://www.linkedin.com/in/nandan645/",
       instagram: "https://www.instagram.com/abhi.nandan.45/"
   },
@@ -21,140 +21,140 @@ const coCordis = [
 const members = [
   {
       name: "Manasvi",
-      imageUrl: "./src/assets/teamphoto/Manasvi.jpg",
+      imageUrl: "/teamphoto/Manasvi.jpg",
       linkedin: "https://www.linkedin.com/in/manasvi-k-227395326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagram: "https://instagram.com/manu.kyatham_/"
   },
   {
       name: "Piyush Kumar",
-      imageUrl: "./src/assets/teamphoto/Pihu.jpg",
+      imageUrl: "/teamphoto/Pihu.jpg",
       linkedin: "https://www.linkedin.com/in/piyush-kumar-852082281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagram: "https://www.instagram.com/pihu_26112005/profilecard/?igsh=cHg2NnBiZW9wZXNm"
   },
   {
       name: "Kartik Verma",
-      imageUrl: "./src/assets/teamphoto/kartik.jpg",
+      imageUrl: "/teamphoto/Kartik.jpg",
       linkedin: "https://www.linkedin.com/in/kartik-verma-6643161b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagram: "https://www.instagram.com/kartik_verma_2328?igsh=Ym95dnR3cjlpMzNl"
   },
   {
     name: "Shubh Sahu",
-    imageUrl: "./src/assets/teamphoto/shubh.jpg",
+    imageUrl: "/teamphoto/shubh.jpg",
     linkedin: "https://www.linkedin.com/in/shubhxtech/",
     instagram: "https://www.instagram.com/sahoo_shubh/"
 },
   {
       name: "Arpita Kumari",
-      imageUrl: "./src/assets/teamphoto/Arpita.jpg",
+      imageUrl: "/teamphoto/Arpita.jpg",
       linkedin: "https://www.linkedin.com/in/arpita-kumari-b371562a5/",
       instagram: "https://www.instagram.com/arpitaa1112/"
   },
   {
     name: "Pragyansh Saxena",
-    imageUrl: "./src/assets/teamphoto/pragyansh.jpeg",
+    imageUrl: "/teamphoto/pragyansh.jpeg",
     linkedin: "https://www.linkedin.com/in/pragyansh-saxena-3b94492b8/",
     instagram: null
 },
   {
       name: "Anamika",
-      imageUrl: "./src/assets/teamphoto/Anamika.jpg",
+      imageUrl: "/teamphoto/Anamika.jpg",
       linkedin: "https://www.linkedin.com/in/anamika-godara-834ab2293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       instagram: null
   },
   {
       name: "Kaustubh Srivastava",
-      imageUrl: "./src/assets/teamphoto/kaustab.jpg",
+      imageUrl: "/teamphoto/kaustab.JPG",
       linkedin: "https://www.linkedin.com/in/kaustubh-srivastava-963810297/",
       instagram: "https://www.instagram.com/kaustubh__004/"
   },
   {
       name: "Bharat Agrawal",
-      imageUrl: "./src/assets/teamphoto/bharat.jpg",
+      imageUrl: "/teamphoto/bharat.jpg",
       linkedin: "https://www.linkedin.com/in/bharat-agrawal-a9487a223/",
       instagram: "https://www.instagram.com/bharat_agrawal420/"
   },
   {
       name: "Arka Mukhopadhyay",
-      imageUrl: "./src/assets/teamphoto/arka.jpg",
+      imageUrl: "/teamphoto/arka.jpg",
       linkedin: "https://www.linkedin.com/in/arka-qchaos/",
       instagram: "https://www.instagram.com/_qcha0s/"
   },
   {
       name: "Gaurav Kushwaha",
-      imageUrl: "./src/assets/teamphoto/Gaurav.jpg",
+      imageUrl: "/teamphoto/Gaurav.jpg",
       linkedin: "https://www.linkedin.com/in/gaurav-kushwaha-friday-code",
       instagram: "https://www.instagram.com/kush.gaurav12/profilecard/?igsh=cDN6NnZjcHh5djlk"
   },
   {
       name: "Divyansh Jain",
-      imageUrl: "./src/assets/teamphoto/divyansh.jpeg",
+      imageUrl: "/teamphoto/divyansh.jpeg",
       linkedin: "https://www.linkedin.com/in/divyansh-jain-9874a4214/",
       instagram: "https://www.instagram.com/divyanshjain_21/?hl=en"
   },
   {
       name: "Aarvik Oberoi",
-      imageUrl: "./src/assets/teamphoto/aarvik.jpg",
+      imageUrl: "/teamphoto/aarvik.jpg",
       linkedin: "www.linkedin.com/in/aarvik-oberoi-1aa96927a",
       instagram: "instagram.com/r_.vik"
   },
   {
       name: "Saurabh Singh",
-      imageUrl: "./src/assets/teamphoto/saurabhsingh.jpg",
+      imageUrl: "/teamphoto/saurabhsingh.jpg",
       linkedin: "https://www.linkedin.com/in/saurabh-singh-4b9556281/",
       instagram: "https://www.instagram.com/saur_hub_007/"
   },
   {
       name: "Honey Gupta",
-      imageUrl: "./src/assets/teamphoto/honey.jpg",
+      imageUrl: "/teamphoto/honey.jpg",
       linkedin: "https://www.linkedin.com/in/honey-gupta-2863b0296",
       instagram: null
   },
   {
       name: "Risa Chaudhari",
-      imageUrl: "./src/assets/teamphoto/risa.jpg",
+      imageUrl: "/teamphoto/risa.jpg",
       linkedin: "https://www.linkedin.com/in/risa-chaudhari-a2aa84298/",
       instagram: "NA"
   },
   {
       name: "Arani Ghosh",
-      imageUrl: "./src/assets/teamphoto/arani.jpg",
+      imageUrl: "/teamphoto/arani.jpg",
       linkedin: "https://www.linkedin.com/in/arani-ghosh-b64216257/",
       instagram: "https://www.instagram.com/arani_ghosh_47/"
   },
 
   {
       name: "Gyan Ratan",
-      imageUrl: "./src/assets/teamphoto/gyan.jpg",
+      imageUrl: "/teamphoto/gyan.jpg",
       linkedin: "https://www.linkedin.com/in/gyanratan",
       instagram: null
   },
   {
       name: "Pranjal",
-      imageUrl: "./src/assets/teamphoto/pranjal.jpg",
+      imageUrl: "/teamphoto/pranjal.jpg",
       linkedin: "https://www.linkedin.com/in/pranjal-gumber-535146226/",
       instagram: null
   },
   {
       name: "Harshit jain",
-      imageUrl: "./src/assets/teamphoto/harshit.jpg",
+      imageUrl: "/teamphoto/harshit.jpg",
       linkedin: "https://www.linkedin.com/in/harshit-jain-514945217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagram: null
   },
   {
       name: "Abhishek Singh Rawat",
-      imageUrl: "./src/assets/teamphoto/abhishek.jpg",
+      imageUrl: "/teamphoto/abhishek.jpg",
       linkedin: "https://www.linkedin.com/in/intellisense-/",
       instagram: "https://www.instagram.com/abhishek.singh_rawat/f"
   },
   {
       name: "Rajsi Sangra",
-      imageUrl: "./src/assets/teamphoto/rajsi.jpeg",
+      imageUrl: "/teamphoto/rajsi.jpeg",
       linkedin: "https://www.linkedin.com/in/rajsi-sangra-8ab90431b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       instagram: null
   },
   {
       name: "Adithya Kumar Pandey",
-      imageUrl: "./src/assets/teamphoto/adityakp.jpg",
+      imageUrl: "/teamphoto/adityakp.jpg",
       linkedin: "https://www.linkedin.com/in/adithyapandey",
       instagram: "https://www.instagram.com/adithyapandeykumar/"
   }
@@ -180,7 +180,7 @@ const Teams = () => {
         <div className = 'flex flex-col  items-center'>
           <div className = 'mb-32 flex flex-col items-center'>
             <h1 className = 'text-5xl font-bold text-white mb-20'>COORDINATOR</h1>
-            <Card name = 'Abhijeet Jha' linkedin={"https://www.linkedin.com/in/abhi-abc/"} instagram={"https://www.instagram.com/jha_abhijeet_0809/"} imageUrl = './src/assets/teamphoto/abhijheetjha.jpeg'/>
+            <Card name = 'Abhijeet Jha' linkedin={"https://www.linkedin.com/in/abhi-abc/"} instagram={"https://www.instagram.com/jha_abhijeet_0809/"} imageUrl = '/teamphoto/abhijheetjha.jpeg'/>
           </div>
           
           <div className = 'mb-32 flex flex-col items-center'>

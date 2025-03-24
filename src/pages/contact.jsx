@@ -104,11 +104,11 @@ const Contact = () => {
         {/* Right side: Profile */}
         <div className="flex flex-col items-center justify-center text-center space-y-4 p-8 rounded-lg shadow-lg backdrop-blur-sm bg-black/30">
           <img
-            src="./src/assets/teamphoto/abhijheetjha.jpeg" // Replace with your image URL
+            src="/teamphoto/abhijheetjha.jpeg" // Replace with your image URL
             alt="Profile"
             className="w-32 h-32 rounded-full object-cover mb-4 border-white border-4"
           />
-          <h3 className="text-2xl font-bold">Abhijheet Jha</h3>
+          <h3 className="text-2xl font-bold">Abhijeet Jha</h3>
           <p className="text-gray-400">Coordinator</p>
           <p className="text-gray-400">Phone: +91 92637 30646</p>
           <div className="flex space-x-4 mt-4">
