@@ -163,7 +163,7 @@ const members = [
 const Teams = () => {
   return (
     <div className="relative pt-16 h-full w-full bg-black overflow-hidden flex flex-col items-center justify-center">
-      <div className="absolute inset-0 w-full h-screen bg-cover bg-center bg-no-repeat opacity-90" style={{ backgroundImage: `url(${bg})` }}/>
+      <div className="absolute inset-0 w-full h-screen bg-cover bg-center bg-no-repeat opacity-90" style={{ backgroundImage: `url(${bg})` }} />
       <div className="fixed left-0 top-0 inset-0 grid"
         style={{
           backgroundImage: 'radial-gradient(circle, #eeeeee 2px, transparent 2px)',
@@ -173,43 +173,58 @@ const Teams = () => {
         }}>
       </div>
       <div className='relative z-10 text-center pt-10'>
-      <h1 className="text-8xl font-bold text-white mb-4 pb-8 animate-fadeIn">
+        {/* Main Heading */}
+        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-4 pb-8 animate-fadeIn">
           &lt;The Team /&gt;
         </h1>
 
-        <div className = 'flex flex-col  items-center'>
-          <div className = 'mb-32 flex flex-col items-center'>
-            <h1 className = 'text-5xl font-bold text-white mb-20'>COORDINATOR</h1>
-            <Card name = 'Abhijeet Jha' linkedin={"https://www.linkedin.com/in/abhi-abc/"} instagram={"https://www.instagram.com/jha_abhijeet_0809/"} imageUrl = '/teamphoto/abhijheetjha.jpeg'/>
+        <div className='flex flex-col items-center'>
+          {/* Coordinator Section */}
+          <div className='mb-32 flex flex-col items-center'>
+            <h1 className='text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-10 sm:mb-20'>
+              COORDINATOR
+            </h1>
+            <Card 
+              name='Abhijeet Jha' 
+              linkedin={"https://www.linkedin.com/in/abhi-abc/"} 
+              instagram={"https://www.instagram.com/jha_abhijeet_0809/"} 
+              imageUrl='/teamphoto/abhijheetjha.jpeg' 
+            />
           </div>
-          
-          <div className = 'mb-32 flex flex-col items-center'>
-            <h1 className = 'text-5xl font-bold text-white mb-20'>CO-COORDINATOR</h1>
-            <div className="flex flex-wrap justify-evenly gap-32">
+
+          {/* Co-Coordinator Section */}
+          <div className='mb-32 flex flex-col items-center'>
+            <h1 className='text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-10 sm:mb-20'>
+              CO-COORDINATOR
+            </h1>
+            <div className="flex flex-wrap justify-evenly gap-16 sm:gap-32">
               {coCordis.map((coCordi, index) => (
-                <div
-                  key={index}
-                  className=""
-                >
-                  {console.log(coCordi)}
-                  {<Card name = {coCordi.name} instagram = {coCordi.instagram} linkedin = {coCordi.linkedin} imageUrl = {coCordi.imageUrl} />}
-                  
+                <div key={index}>
+                  <Card 
+                    name={coCordi.name} 
+                    instagram={coCordi.instagram} 
+                    linkedin={coCordi.linkedin} 
+                    imageUrl={coCordi.imageUrl} 
+                  />
                 </div>
               ))}
             </div>
           </div>
-          
-          <div className = 'mb-20 flex flex-col items-center'>
-            <h1 className = 'text-5xl font-bold text-white mb-20'>CORE MEMBERS</h1>
-            <div className="flex flex-wrap justify-evenly gap-28" style={{ margin: '5%' }}>
+
+          {/* Core Members Section */}
+          <div className='mb-20 flex flex-col items-center'>
+            <h1 className='text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-10 sm:mb-20'>
+              CORE MEMBERS
+            </h1>
+            <div className="flex flex-wrap justify-evenly gap-14 sm:gap-28" style={{ margin: '5%' }}>
               {members.map((member, index) => (
-                <div
-                  key={index}
-                  className=""
-                >
-                  {console.log(member)}
-                  {<Card name = {member.name} imageUrl = {member.imageUrl} instagram={member.instagram} linkedin={member.linkedin} />}
-                  
+                <div key={index}>
+                  <Card 
+                    name={member.name} 
+                    imageUrl={member.imageUrl} 
+                    instagram={member.instagram} 
+                    linkedin={member.linkedin} 
+                  />
                 </div>
               ))}
             </div>
@@ -221,4 +236,4 @@ const Teams = () => {
   )
 }
 
-export default Teams
+export default Teams;

@@ -56,7 +56,7 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden">
             <ul className="pt-4 pb-3">
-              {['gsoc', 'teams', 'blogs', 'contact'].map((item) => (
+              {['home', 'gsoc', 'teams', 'contact'].map((item) => (
                 <li key={item} className="mb-3">
                   <NavLink
                     to={`/${item}`}
